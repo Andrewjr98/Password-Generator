@@ -23,8 +23,21 @@
             placeholder="Your Secure Password"
             aria-label="Generated Password"
           ></textarea>
+
         </div>
         <div class="card-footer">
+          <input type="checkbox" id="charset1" name="charset1" value="Numbers">
+          <label for="charset1">Numbers</label>
+          <input type="checkbox" id="charset2" name="charset2" value="LowerCase">
+          <label for="charset2">Lower Case</label>
+          <input type="checkbox" id="charset3" name="charset3" value="Uppercase">
+          <label for="charset3">Uppercase</label>
+          <input type="checkbox" id="charset4" name="charset4" value=Special">
+          <label for="charset4">Special</label>
+          <br />
+          <label for="Quantity">Quantity (Between 8 and 128)</label>
+          <input type="number" id="Quantity" name="Quantity" min="8" max="128">
+          <br />
           <button id="generate" class="btn">Generate Password</button>
         </div>
       </div>
